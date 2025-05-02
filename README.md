@@ -1,46 +1,42 @@
 🎓 Educational Certificate Verification using Blockchain
-A secure and decentralized application built to verify educational certificates using blockchain technology. This project aims to eliminate certificate forgery and enable instant verification by storing academic credentials on a tamper-proof distributed ledger.
+This project provides a Flask-based web application that securely stores and verifies educational certificates using Ethereum blockchain. It eliminates certificate forgery by providing tamper-proof, verifiable credentials and integrates QR code scanning for instant authentication.
 
-🚀 Project Overview
-The traditional method of verifying educational certificates is manual, time-consuming, and prone to fraud. This project leverages the power of blockchain to ensure:
+📌 Table of Contents
+> Project Features
 
-Authenticity of certificates
+> Technology Stack
 
-Integrity of data
+> Setup Instructions
 
-Transparency in the verification process
+> Usage Guide
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
+> Screenshots
 
-Backend: Node.js, Express.js
+> Future Enhancements
 
-Blockchain: Ethereum (using Ganache and Solidity smart contracts)
+> License
 
-Tools: Truffle, Metamask, Ganache, Web3.js
+🚀 Project Features
+✅ Admin and company login system
+✅ Add & verify educational certificates
+✅ Generate unique SHA256 digital signatures
+✅ Create and scan QR codes for certificates
+✅ Store certificate data on Ethereum blockchain
+✅ Authenticate certificate via QR-based file upload
 
-📌 Features
-🎓 Upload and register certificates on the blockchain
+🛠 Technology Stack
+> Frontend: HTML, CSS, JavaScript
 
-🔍 Verify certificate authenticity via certificate ID
+> Backend: Python (Flask)
 
-🔐 Immutable record storage to prevent tampering
+> Blockchain: Ethereum (Ganache, Solidity, Web3.py)
 
-👤 Role-based access (admin/institute and verifier)
+> Smart Contract ABI: CertificateVerification.json
 
-🧪 How It Works
-Institution Login: Upload student details and issue certificates via smart contract.
+Libraries:
 
-Blockchain Storage: Certificate details are hashed and stored on Ethereum blockchain.
+> web3
 
-Verifier Access: Any third party can verify a certificate by entering its unique ID.
+> pyqrcode, png
 
-🔧 Installation & Setup
-Prerequisites
-Node.js
-
-Ganache (local Ethereum blockchain)
-
-Truffle Suite
-
-Metamask (browser extension)
+> hashlib, datetime, os
